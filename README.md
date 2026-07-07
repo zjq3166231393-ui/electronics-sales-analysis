@@ -1,26 +1,28 @@
-# 📊 电子产品销售分析项目
+# 📊 Electronics Sales Analysis Project
 
-基于电商销售数据，从 **销售趋势、用户结构、产品品牌、会员价值** 四个维度展开全链路分析，结合用户分层与 RFM 模型，输出可落地的运营优化建议。
+This project performs a full-chain analysis of e-commerce electronics sales data from four dimensions: **sales trends, user structure, product brand, and customer value**. It combines user segmentation and the RFM model to deliver actionable business optimization suggestions.
 
-**技术栈**：Python · Pandas · Matplotlib
+**Tech Stack**: Python · Pandas · Matplotlib
 
+---
 
-## 🎯 分析目标
-- 拆解销售波动的核心驱动因素  
-- 基于消费行为对用户分层，识别高价值与流失风险人群  
-- 评估产品品牌结构，挖掘选品优化空间  
-- 搭建 RFM 会员价值体系，输出差异化运营策略  
+## 🎯 Objectives
+- Identify core drivers behind sales fluctuations  
+- Segment users by consumption behavior to spot high-value and churn-risk users  
+- Evaluate brand structure and uncover product selection optimization opportunities  
+- Build an RFM customer value system to support differentiated marketing strategies  
 
+---
 
-## ⚙️ 环境与运行
+## ⚙️ Setup & Run
 
-### 环境要求
+### Requirements
 - Python 3.8+
 - Pandas, NumPy, Matplotlib
 
-### 运行步骤
+### Steps
 ```bash
-git clone <仓库地址>
+git clone <repo-url>
 cd electronics-sales-analysis
 pip install -r requirements.txt
 python main.py
