@@ -16,3 +16,7 @@ Thumbs.db
 
 # macOS
 .DS_Store
+
+# 项目输出结果
+data/processed/
+reports/figures/
