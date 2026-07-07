@@ -14,29 +14,6 @@
 
 ---
 
-## 📁 目录结构
-electronics-sales-analysis/
-├── data/raw/ # 原始数据（Bronze层）
-│ └── electronics_sales.csv
-├── src/ # 核心分析模块
-│ ├── utils/ # 通用工具（字体配置等）
-│ ├── data_loader.py
-│ ├── data_cleaner.py
-│ ├── user_segment.py
-│ ├── demographic_analysis.py
-│ ├── product_analysis.py
-│ ├── sales_analysis.py
-│ └── rfm_analysis.py
-├── notebooks/ # 完整分析笔记（含业务思考）
-│ └── original_project_analysis.ipynb
-├── reports/figures/ # 图表输出目录
-├── dashboard/ # 看板预留
-├── docs/ # 报告文档预留
-├── images/ # README配图
-├── main.py # 一键运行入口
-├── requirements.txt
-└── README.md
-
 ## ⚙️ 环境与运行
 
 ### 环境要求
